@@ -1,0 +1,109 @@
+li:hover{
+  color: green;
+}
+
+.app {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img1 {
+    width: 500px;
+    margin-top: 30px;
+}
+
+.xcel-form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+form label {
+    display: block;
+}
+
+label{
+  font-size: 15px;
+  padding:5px 0px;
+}
+
+
+input {
+    width: 60%;
+    display: block;
+    border: 1px solid blue;
+    padding: 10px 90px 10px 5px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+input:hover {
+    border: color #000;
+}
+
+
+.img2 {
+    width: 60px;
+    border-radius: 50%;
+    border-top: 10px;
+}
+
+.title {
+    font-size: 40px;
+    padding: 10px 0px;
+}
+
+.xcel-subtitle {
+    font-size: 20px;
+    padding: 10px 0px;
+    margin-top: -25px;
+      max-width: 500px;
+}
+
+form .verify-content{
+    width: 100%;
+    display: flex;
+}
+
+button {
+    width: 200px;
+    font-size: 18px;
+    background-color: green;
+    padding: 7px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    transition: .2s all;
+    color: #000;
+/*     background: white; */
+}
+
+.verify-button{
+    width: 100px;
+    margin-left: 20px;
+}
+
+option{
+  text-align:center;
+}
+
+#mobileoperator {
+    width: 60%;
+    padding:5px 0;
+    border-radius: 5px;
+    border: rgb(100, 65, 241) 1px solid;
+}
+
+.number-input{
+  width:43%;
+}
+
+#result>img{
+    width: 150px;
+}
