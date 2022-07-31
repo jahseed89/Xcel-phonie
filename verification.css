@@ -105,5 +105,6 @@ option{
 }
 
 #result>img{
-    width: 150px;
+    width: 70px;
+    border-radius: 50%;
 }
